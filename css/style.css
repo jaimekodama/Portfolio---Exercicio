@@ -1,0 +1,595 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+:root {
+    --cor-primaria: #000000;
+    --cor-secundaria: #040303;
+    --cor-terciaria: #EEEEEE;
+    --cor-hover: #F4EEE0;
+
+    --fonte-principal: 'Playfair Display SC', Tahoma;
+    --fonte-secundaria: 'Playfair Display', Tahoma;
+    --fonte-terciaria: 'Lora', Tahoma;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.background {
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    color: var(--cor-primaria);
+}
+
+header {
+    background-color: var(--cor-secundaria);
+    width: 100%;
+    margin-bottom: 40px;
+    box-shadow: 0 0 20px #000;
+}
+
+.kanji {
+    width: 90px;
+}
+
+.menu {
+    color: var(--cor-primaria)
+}
+
+nav {
+    float: right;
+    padding: 25px;
+    margin-top: auto;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline;
+}
+
+nav ul li a {
+    color: var(--cor-terciaria);
+    font-family: var(--fonte-principal);
+    font-size: 1.4rem;
+    text-decoration: none;
+    padding: 2px 14px 8px 14px;
+    border-radius: 4px;
+}
+
+nav ul li a:hover {
+    background: var(--cor-hover);
+    color: var(--cor-primaria)
+}
+
+.main_section {
+    width: 55%;
+    float: left;
+    margin-top: 100px;
+}
+
+.main_titulo {
+    font-size: 3.1rem;
+    text-align: center;
+    padding: 0 0 0 24px;
+    font-family: var(--fonte-secundaria);
+}
+
+.main_sub {
+    font-size: 1.6rem;
+    text-align: center;
+    padding: 0 0 0 24px;
+    font-family: var(--fonte-secundaria);
+}
+
+.main_teor {
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 0 0 0 24px;
+    font-family: var(--fonte-secundaria);
+}
+
+.main_aside {
+    width: 45%;
+    float: right;
+}
+
+.capa {
+    max-width: 100%;
+}
+
+footer {
+    width: 100%;
+    background: var(--cor-secundaria);
+    color: var(--cor-terciaria);
+    font-family: var(--fonte-principal);
+    font-size: 1.5rem;
+    text-align: center;
+    display: inline-block;
+    padding: 40px;
+    box-sizing: border-box;
+    bottom: 0;
+    box-shadow: 0 0 5px var(--cor-secundaria);
+}
+
+.bio_background {
+    background-repeat: no-repeat;
+    background-size: auto;
+    color: var(--cor-primaria);
+}
+
+.bio_section {
+    width: calc(60% - 68px);
+    float: left;
+    margin-top: 6px;
+    padding: 0 28px 0 40px;
+}
+
+.bio_titulo {
+    font-size: 2.4rem;
+    text-align: center;
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    padding: 0 0 30px 0;
+}
+
+.bio_teor {
+    font-family: var(--fonte-terciaria);
+    color: var(--cor-primaria);
+    font-size: 1.1rem;
+    text-indent: 48px;
+    margin-top: 4px;
+}
+
+.faculdade {
+    font-family: var(--fonte-terciaria);
+    color: var(--cor-primaria);
+    font-size: 1.2rem;
+    text-indent: 18px;
+    list-style: none;
+}
+
+.bio_aside {
+    width: 40%;
+    float: right;
+}
+
+.cp400 {
+    margin-top: 85px;
+    width: 100%;
+}
+
+.xp_body {
+    background-image: url(imagens/bk-1.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    /*background: var(--cor-terciaria);*/
+    color: var(--cor-primaria);
+}
+
+.xp_titulo {
+    font-size: 2.4rem;
+    text-align: center;
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    padding: 0 0 30px 0;
+    margin-bottom: 36px;
+}
+
+.xp_itens {
+    margin: 0 0 15px 0;
+    list-style: none;
+}
+
+figure {
+    width: 50%;
+    text-align: center;
+    font-family: var(--fonte-secundaria);
+    font-style: bold;
+    font-size: 1.4rem;
+    text-indent: 0;
+    margin: 0 auto;
+    padding: 36px;
+}
+
+.xp_img {
+    width: 75%;
+}
+
+.contato_section {
+    width: 55%;
+    float: left;
+    margin-top: 6px;
+}
+
+.links_social {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 14px;
+}
+
+.links_social_titulo {
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    font-size: 2.8rem;
+    margin-bottom: 36px;
+}
+
+.links_social_nav {
+    display: flex;
+    justify-content: left;
+    gap: 12px;
+    width: 50%;
+    text-align: left;
+    font-size: 1.5rem;
+    padding: 10px 0 0px 80px;
+    text-decoration: none;
+    color: var(--cor-primaria);
+    font-family: var(--fonte-terciaria);
+    font-weight: 400;
+}
+
+.links_social_nav:hover {
+    font-weight: 600;
+    color: var(--cor-secundaria);
+    font-size: 1.9rem;
+}
+
+.logo_social {
+    width: 30px;
+}
+
+.contato_aside {
+    width: 45%;
+    float: right;
+}
+
+/* Setup - tablets */
+@media ((min-width: 480px) and (max-width: 960px)) {
+    .background {
+        background-repeat: no-repeat;
+        background-size: auto;
+        color: var(--cor-primaria);
+    }
+
+    header {
+        margin-bottom: 40px;
+    }
+
+    .kanji {
+        width: 110px;
+    }
+
+    .menu {
+        color: var(--cor-primaria)
+    }
+
+    nav {
+        padding: 48px 16px 0 0;
+    }
+
+    nav ul li {
+        list-style: none;
+        display: inline;
+    }
+
+    nav ul li a {
+        font-size: 1.3rem;
+        padding: 2px 16px 8px 16px;
+    }
+
+    nav ul li a:hover {
+        background: var(--cor-hover);
+        color: var(--cor-primaria)
+    }
+
+    .main_section {
+        width: 100%;
+        float: top;
+        margin-top: 6px;
+    }
+
+    .main_titulo {
+        font-size: 3.3rem;
+        text-align: center;
+        padding: 0 0 0 32px;
+    }
+
+    .main_sub {
+        font-size: 1.8rem;
+        text-align: center;
+        padding: 0;
+    }
+
+    .main_teor {
+        font-size: 1.5rem;
+        padding: 6px 18px;
+        margin-bottom: 12px;
+    }
+
+    .main_aside {
+        width: 100%;
+        float: bottom;
+    }
+
+    .bio_section {
+        width: calc(100% - 56px);
+        float: top;
+        margin-top: 4px;
+        padding: 0 28px 0 28px;
+    }
+
+    .bio_teor {
+        font-size: 1.3rem;
+        text-indent: 48px;
+        margin-top: 6px;
+    }
+
+    .faculdade {
+        font-size: 1.3rem;
+        text-indent: 16px;
+        list-style: none;
+    }
+
+    .bio_aside {
+        width: 100%;
+        float: bottom;
+    }
+
+    figure {
+        width: 95%;
+        font-size: 1.4rem;
+        margin: 16px 0 24px 0;
+        padding: 14px;
+    }
+
+    .xp_img {
+        width: 85%;
+    }
+
+    .contato_section {
+        width: 100%;
+        float: top;
+        margin-top: 0px;
+    }
+
+    .links_social {
+        gap: 32px;
+    }
+
+    .links_social_titulo {
+        font-size: 3rem;
+        margin-bottom: 6px;
+    }
+
+    .links_social_nav {
+        gap: 8px;
+        width: 80%;
+        font-size: 1.6rem;
+    }
+
+    .logo_social {
+        width: 38px;
+    }
+
+    .contato_aside {
+        width: 100%;
+        float: bottom;
+    }
+}
+
+/* Setup - Smartphones */
+@media ((max-width: 479px)) {
+    .background {
+        background-repeat: no-repeat;
+        background-size: auto;
+        color: var(--cor-primaria);
+    }
+
+    header {
+        box-shadow: 0 0 20px #000;
+        box-sizing: border-box;
+        position: fixed;
+        top: 0;
+    }
+
+    .kanji {
+        width: 90px;
+    }
+
+    .menu {
+        float: right;
+        color: var(--cor-terciaria);
+        padding: 6px 24px 6px 0;
+        font-size: 2.8rem;
+        margin: 22px 6px 12px 0;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .mostrar {
+        display: block;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        font-size: 1.8rem;
+    }
+
+    .main_section {
+        width: 100%;
+        float: top;
+        margin-top: 135px;
+    }
+
+    .main_titulo {
+        font-size: 2.4rem;
+        text-align: center;
+        padding: 0 10px 0 24px;
+        font-family: var(--fonte-secundaria);
+    }
+
+    .main_sub {
+        font-size: 1.6rem;
+        text-align: center;
+        padding: 0 12px 0 20px;
+        font-family: var(--fonte-secundaria);
+    }
+
+    .main_teor {
+        font-size: 1.3rem;
+        text-align: center;
+        margin-right: 12px;
+        /*padding: 0 0 0 24px;*/
+        font-family: var(--fonte-secundaria);
+    }
+
+    .main_aside {
+        margin-top: 10px;
+        width: 100%;
+        float: bottom;
+    }
+
+    .capa {
+        max-width: 100%;
+    }
+
+    footer {
+        font-size: 1.1rem;
+    }
+
+    .bio_background {
+        background-repeat: no-repeat;
+        background-size: auto;
+        color: var(--cor-primaria);
+    }
+
+    .bio_section {
+        width: calc(100% - 50px);
+        float: top;
+        margin-top: 115px;
+        padding: 0 25px 0 25px;
+    }
+
+    .bio_titulo {
+        font-size: 2.4rem;
+        text-align: center;
+        font-family: var(--fonte-principal);
+        font-weight: 400;
+        padding: 0 0 20px 0;
+    }
+
+    .bio_teor {
+        font-family: var(--fonte-terciaria);
+        color: var(--cor-primaria);
+        font-size: 1.1rem;
+        text-indent: 36px;
+        margin-top: 4px;
+    }
+
+    .faculdade {
+        font-family: var(--fonte-terciaria);
+        color: var(--cor-primaria);
+        font-size: 1.2rem;
+        text-indent: 16px;
+        list-style: none;
+    }
+
+    .bio_aside {
+        width: 100%;
+        float: bottom;
+    }
+
+    .xp_background {
+        background-repeat: no-repeat;
+        background-size: auto;
+        color: var(--cor-primaria);
+    }
+
+    .xp_titulo {
+        font-size: 2.2rem;
+        text-align: center;
+        font-family: var(--fonte-principal);
+        font-weight: 400;
+        padding: 0 0 16px 0;
+        margin-bottom: 16px;
+        margin-top: 125px;
+    }
+
+    .xp_itens {
+        margin: 0 auto;
+        list-style: none;
+    }
+
+    figure {
+        width: 85%;
+        text-align: center;
+        font-family: var(--fonte-secundaria);
+        font-style: bold;
+        font-size: 1.3rem;
+        text-indent: 0;
+        margin: 0 auto;
+        padding: 16px 8px;
+        border: 3px solid var(--cor-secundaria);
+        border-radius: 6px;
+        margin-bottom: 24px;
+    }
+
+    .xp_img {
+        width: 95%;
+    }
+
+    .contato_section {
+        width: 90%;
+        float: top;
+        margin-top: 6px;
+    }
+
+    .links_social {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 14px;
+        margin: 0 auto;
+    }
+
+    .links_social_titulo {
+        font-family: var(--fonte-principal);
+        font-weight: 400;
+        font-size: 2.8rem;
+        text-align: center;
+        margin-bottom: 18px;
+        margin-top: 125px;
+    }
+
+    .links_social_nav {
+        display: flex;
+        gap: 16px;
+        width: calc(100% - 24px);
+        text-align: left;
+        font-size: 1.2rem;
+        padding: 5px;
+        text-decoration: none;
+        color: var(--cor-primaria);
+        font-family: var(--fonte-terciaria);
+        font-weight: 400;
+    }
+
+    .logo_social {
+        width: 30px;
+    }
+
+    .contato_aside {
+        width: 100%;
+        float: bottom;
+    }
+}

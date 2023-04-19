@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@400;700&family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="imagens/icon-kanji.jpg">
+    <title>Jaime Kodama</title>
+</head>
+
+<body>
+    <body style="background-image: url(imagens/bk-1.jpg)" class="bio_background">
+    <header>
+        <a href="index.html" title="Home">
+            <img src="imagens/kanji-tr.png" alt="Kodama" title="Kodama" class="kanji">
+        </a>
+        <a href="#" title="Menu" class="menu" onclick="mostrar()">
+            <i class="fa-sharp fa-solid fa-bars"></i>
+        </a>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html" title="Página Inicial">Página Inicial</a>
+                </li>
+                <li>
+                    <a href="bio.html" title="Biografia">Biografia</a>
+                </li>
+                <li>
+                    <a href="xp.html" title="Experiência">Experiência</a>
+                </li>
+                <li>
+                    <a href="contato.html" title="Contato">Contato</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="bio_section">
+            <h1 class="bio_titulo">Biografia</h1>
+            <p class="bio_teor">Nascido em Campo Mourão/PR, em 1982, passei minha infância e realizei meus estudos até terminar o ensino médio na cidade natal. Após alguns anos fora, quando morei em Londrina/PR, Curitiba/PR e Japão, retornei à cidade de Campo Mourão. </p><br>
+            <p class="bio_teor">Desde pequeno, tive contato com computadores, por influência de meu pai que trabalhou na área de TI, durante o período de informatização do Banco do Brasil.</p><br>
+            <p class="bio_teor">O primeiro computador que utilizei foi um CP400, da Prológica. Seguido de um Solution 16(primeiro PC All-in-One do Brasil, possuia processador Intel 8088 de 16 bits e 256kb de RAM), um 286, um 386SX, um 486DX4 e uma sequência de PCs com processadores da série Pentium.</p><br>
+            <p class="bio_teor">Durante a infância fiz cursos de informática como MS-Dos, Windows 3.1, dBaseIII e outros. Vivi momentos inesquecíveis como a chegada dos Kits Multimídias (com CD-Rom, placa Sound Blaster, microfone e caixinhas de som) e a chegada da Internet, em 1995, quando tivemos acesso a uma placa da US Robotics de 33.6kbps e, depois, da tão desejada placa de 56k(57.6kbps).</p><br>
+            <p class="bio_teor">Cheguei a cursar por um ano o curso de Engenharia da Computação, mas tranquei a matrícula e não concluí.</p>
+            <p class="bio_teor">Apesar de viver em contato com a área de informática, acabei estudando Administração de Empresas e trabalhei, na maior parte do tempo, na área Comercial/Administrativa, com passagens pelo Expresso Nordeste, COAMO, Pro Solus e empresa própria (mais detalhes, disponíveis na seção Experiências). Após me afastar da própria empresa, segui trabalhando na área comercial, como Corretor de Imóveis.</p><br>
+            <p class="bio_teor">Em uma determinada época, no intervalo entre as transições de carreira, que citei anteriomente, tive algumas experiências interessantes, quando fiz o curso de formação de Chef de Cuisine e Restaurateur e trabalhei como Cozinheiro em restaurantes de Curitiba, Londrina e no Japão.</p><br><br>
+
+            <h1 class="bio_titulo">Formação Acadêmica:</h1>
+            <div class="faculdade">
+                <ul class="faculdade">
+                    <li>Tecnologia em Análise de Sistemas - CEI - Centro Univestiário Integrado - 2023 - Curso em andamento</li><br>
+                    <li>Tecnologia em Negócios Imobiliários - UniCesumar - 2020 a 2022 - Curso concluído</li><br>
+                    <li>Engenharia da Computação - UNOPAR - Universidade Norte do Paraná - 2001 a 2002 - Curso não concluído</li><br><br>
+                </ul>
+            </div>
+        </section>
+        <aside class="bio_aside">
+            <img src="imagens/cp400.png" alt="FotoCP" title="CP400" class="cp400">
+        </aside>
+        <footer>
+            <p class="center">Desenvolvido por Jaime Kodama</p>
+        </footer>
+    </main>
+
+    <script>
+        function mostrar() {
+            document.querySelector("nav").classList.toggle("mostrar");
+        }
+    </script>
+    
+</body>
+
+</html>

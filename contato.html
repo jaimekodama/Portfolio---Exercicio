@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@400;700&family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="imagens/icon-kanji.jpg">
+    <title>Jaime Kodama</title>
+</head>
+
+<body>
+    <body style="background-image: url(imagens/bk-1.jpg)" class="background">
+    <header>
+        <a href="index.html" title="Home">
+            <img src="imagens/kanji-tr.png" alt="Kodama" title="Kodama" class="kanji">
+        </a>
+        <a href="#" title="Menu" class="menu" onclick="mostrar()">
+            <i class="fa-sharp fa-solid fa-bars"></i>
+        </a>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html" title="Página Inicial">Página Inicial</a>
+                </li>
+                <li>
+                    <a href="bio.html" title="Biografia">Biografia</a>
+                </li>
+                <li>
+                    <a href="xp.html" title="Experiência">Experiência</a>
+                </li>
+                <li>
+                    <a href="contato.html" title="Contato">Contato</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="contato_section">
+            <div class="links_social">
+                <h2 class="links_social_titulo">Contato:</h2>
+                <a class="links_social_nav" href="https://linkedin.com/in/jaime-kodama-1966b7271" target="_blank">
+                    <img src="imagens/cnt-lin.png" class="logo_social">
+                    Linkedin</a>
+                <a class="links_social_nav" href="mailto: jaime.kodama@grupointegrado.br" target="_blank">
+                    <img src="imagens/cnt-mai.png" class="logo_social">
+                    jaime.kodama@grupointegrado.br</a>
+                <a class="links_social_nav" href="https://web.whatsapp.com/send?phone=5544988120606" target="_blank">
+                    <img src="imagens/cnt-wht.png" class="logo_social">
+                    WhatsApp  (44) 98812-0606</a>
+                <a class="links_social_nav" href="https://www.facebook.com/jaime.kodama" target="_blank">
+                    <img src="imagens/cnt-fac.png" class="logo_social">
+                    Facebook</a>
+                <a class="links_social_nav" href="https://www.instagram.com/jaime.kodama" target="_blank">
+                    <img src="imagens/cnt-inst.png" class="logo_social">
+                    Instagram</a>
+        </section>
+        <aside class="contato_aside">
+            <img src="imagens/eut-rs.png" alt="FotoCapa" title="Capa" class="capa">
+        </aside>
+        <footer>
+            <p class="center">Desenvolvido por Jaime Kodama</p>
+        </footer>
+    </main>
+
+    <script>
+        function mostrar() {
+            document.querySelector("nav").classList.toggle("mostrar");
+        }
+    </script>
+    
+</body>
+
+</html>

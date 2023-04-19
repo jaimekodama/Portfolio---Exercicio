@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@400;700&family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="imagens/icon-kanji.jpg">
+    <title>Jaime Kodama</title>
+</head>
+
+<body>
+    <body style="background-image: url(imagens/bk-1.jpg)" class="background">
+    <header>
+        <a href="index.html" title="Home">
+            <img src="imagens/kanji-tr.png" alt="Kodama" title="Kodama" class="kanji">
+        </a>
+        <a href="#" title="Menu" class="menu" onclick="mostrar()">
+            <i class="fa-sharp fa-solid fa-bars"></i>
+        </a>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html" title="Página Inicial">Página Inicial</a>
+                </li>
+                <li>
+                    <a href="bio.html" title="Biografia">Biografia</a>
+                </li>
+                <li>
+                    <a href="xp.html" title="Experiência">Experiência</a>
+                </li>
+                <li>
+                    <a href="contato.html" title="Contato">Contato</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="main_section">
+            <h1 class="main_titulo">Jaime Kodama</h1></br></br>
+            <h2 class="main_sub">Estudante de Análise e Desenvolvimento de Sistemas (TADS)</h2></br></br>
+            <p class="main_teor">A idéia deste site é que as pessoas conheçam um pouco da minha história e das minhas experiências.</br> Aqui
+                você encontrará, também, as informações para entrar em contato comigo.</p>
+        </section>
+        <aside class="main_aside">
+            <img src="imagens/eut.png" alt="FotoCapa" title="Capa" class="capa">
+        </aside>
+        <footer>
+            <p class="center">Desenvolvido por Jaime Kodama</p>
+        </footer>
+    </main>
+
+    <script>
+        function mostrar() {
+            document.querySelector("nav").classList.toggle("mostrar");
+        }
+    </script>
+</body>
+
+</html>
